@@ -1,0 +1,184 @@
+/* **Formatação dass Classes** */
+.descricao{
+  padding: 0 !important;
+  margin:  0 !important;
+}
+.img-venda{
+  padding: 0 !important;
+  margin:  0 !important;
+
+}
+.vendas{
+  padding: 0 -50% !important;
+  margin:  0 !important;
+}
+.aluguel{
+  padding: 0 -50% !important;
+  margin:  0 !important;
+}
+.ativo{
+  color: #9a3235 !important;
+  font-size: 80px;
+
+}
+.titulo{
+  padding: 0 !important;
+  margin:  0 1% 5% 3% !important;
+}
+.itens{
+  padding: 0 1% !important;
+  margin:  0 0 3% 0 !important;
+}
+.itens i{
+  color: #9a3235;
+}
+.rod-vendas{
+  /*border: solid 1px red;*/
+  padding: 0  !important;
+  margin:  0 !important;
+  border-top: solid 1px;
+  border-color: rgba(100, 100, 100, 0.5);
+}
+.valor{
+  /*border: solid 1px red;*/
+  padding: 0  !important;
+  margin:  0 !important;
+  color: #9a3235 !important;
+}
+.mais{
+  /*border: solid 1px red;*/
+  padding: 0  !important;
+  margin:  0 !important;
+}
+.plus{
+  font-weight: bold;
+  font-size: 30px !important;
+  color: #9a3235 !important;
+}
+.plus:hover{
+  font-size: 30px !important;
+  color: #fff !important;
+  background-color: #333;
+}
+.fechar{
+  color: #fff !important;
+  background:rgba(255,255,255, 0.2) !important;
+  width: 50px;
+  padding: 1% !important;
+  margin: 1% !important;
+}
+.fale{
+  padding: 1% !important;
+  margin: 1% !important;
+}
+.fechar:hover{
+  color: #fff !important;
+  background:rgba(255,255,255, 0.5) !important;
+}
+.abas{
+  font-family: "Open Sans Regular";
+  font-size: 15px;
+}
+.caixa{
+  border: solid 1px #ccc !important;
+  border-radius: 3px !important;
+  height: 25px !important;
+  margin: 0 !important;
+}
+.caixa-msg{
+  border: solid 1px #ccc !important;
+  border-radius: 3px !important;
+  height: 60px !important;
+  margin: 1% 0 !important;
+}
+.modal-content{
+  overflow: hidden !important;
+}
+.topo-modal{
+  background-color: #9a3235 !important;
+  color: #fff !important;
+  height: 45px;
+  font-size: 15px !important;
+  margin-bottom: 0;
+}
+.titulo-form{
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.btn-enviar{
+  border-radius: 25px !important;
+  background-color: #9a3235 !important;
+  color: #ccc !important;
+  width: 180px !important;
+  padding: 3%;
+  text-align: center;
+  box-shadow: none !important;
+  border: none;
+}
+.fechar i{
+  font-size: 30px;
+  position: relative;
+  top: -8px;
+}
+
+/* **Formatação das fontes internas** */
+@font-face {
+    font-family: "Open Sans Regular";
+    src: url(../fonts/opensans-regular.ttf);
+}
+/* **Formatação dos Cabeçalhos** */
+h1{
+  font-size: 30px!important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+h2{
+  font-size: 1.5em !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+h3{
+  font-size: 0.8em !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+h4{
+  font-size: 1.4em !important;
+  padding: 0 !important;
+  margin: 1% 0 0 0 !important;
+}
+/* **Formatação de seletores padrões** */
+body{
+  font-family: "Open Sans Regular";
+}
+legend{
+  font-size: 15px;;
+  color: #aaa;
+}
+/* **Formatação dos IDs** */
+#sessao1 {
+  height: 250px;
+}
+#sessao2 span{
+  font-family: "Open Sans Regular";
+  font-size: 1em !important;
+  padding: 3% 1% !important;
+  margin: 0 !important;
+}
+#sessao3 {
+  height: 350px;
+  margin: 3% 0;
+}
+#sessao4{
+  font-family: "Open Sans Regular";
+}
+#modal1{
+  font-family: "Open Sans Regular";
+}
+#modal1 h5{
+  font-size: 1em;
+}
+#favoritos{
+  font-family: "Open Sans Regular";
+  font-size: 18px;
+}
